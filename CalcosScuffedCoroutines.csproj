@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
     
     <PropertyGroup>
         <PackageId>CalcosScuffedCoroutines</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>Calco</Authors>
         <RepositoryUrl>https://github.com/CalcoDev/CalcosScuffedCoroutines</RepositoryUrl>
         <PackageProjectUrl>https://github.com/CalcoDev/CalcosScuffedCoroutines</PackageProjectUrl>
@@ -17,10 +17,12 @@
             A scuffed, yet general implementation of coroutines. 
         </Description>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
         <None Include="LICENSE" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
