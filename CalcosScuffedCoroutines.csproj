@@ -5,5 +5,18 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageId>CalcosScuffedCoroutines</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Calco</Authors>
+        <RepositoryUrl>https://github.com/CalcoDev/CalcosScuffedCoroutines</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/CalcoDev/CalcosScuffedCoroutines</PackageProjectUrl>
+        <PackageTags>calcopod coroutines</PackageTags>
+        <Description>
+            A scuffed, yet general implementation of coroutines. 
+        </Description>
+    </PropertyGroup>
 
 </Project>
+

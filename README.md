@@ -5,7 +5,7 @@ As the title suggests, this is a scuffed implementation of coroutines, if they c
 
 ## Authors
 
-* [@Calco Dev](https://twitter.com/calcopod2)
+* [@Calco](https://twitter.com/calcopod2)
 
 ## License
 
