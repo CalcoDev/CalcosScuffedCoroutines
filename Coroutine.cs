@@ -22,6 +22,9 @@ public class Coroutine
         if (function != null)
             _enumerators.Push(function);
 
+        OnFinished = () => { };
+        OnYielded = _ => { };
+
         Finished = false;
     }
 

@@ -8,7 +8,7 @@
     
     <PropertyGroup>
         <PackageId>CalcosScuffedCoroutines</PackageId>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Calco</Authors>
         <RepositoryUrl>https://github.com/CalcoDev/CalcosScuffedCoroutines</RepositoryUrl>
         <PackageProjectUrl>https://github.com/CalcoDev/CalcosScuffedCoroutines</PackageProjectUrl>
@@ -16,7 +16,12 @@
         <Description>
             A scuffed, yet general implementation of coroutines. 
         </Description>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="LICENSE" Pack="true" PackagePath=""/>
+    </ItemGroup>
 
 </Project>
 
